@@ -1,16 +1,16 @@
-### Hi there 👋
+### cmosher01
 
-<!--
-**cmosher01/cmosher01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My personal home page: https://mosher.mine.nu/
 
-Here are some ideas to get you started:
+### maven gradle
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+To use my maven/gradle artifact packages in your own projects, use this in your `build.gradle` file:
+
+```groovy
+repositories {
+    mavenCentral()
+    maven {
+        url = uri('https://public:\u0067hp_fya6Kseu3XOBMg2icbg7f1LP6ZFYjj35v4Zj@maven.pkg.github.com/cmosher01/*')
+    }
+}
+```
